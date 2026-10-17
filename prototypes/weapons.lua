@@ -1,0 +1,42 @@
+data:extend({
+  {
+    type = "gun",
+    name = "f22-machine-gun",
+    icon = "__base__/graphics/icons/submachine-gun.png",
+    icon_size = 64,
+    hidden = true,
+    subgroup = "gun",
+    order = "z[f22]-a[machine-gun]",
+    attack_parameters = {
+      type = "projectile",
+      ammo_category = "bullet",
+      cooldown = 3,
+      movement_slow_down_factor = 0.5,
+      projectile_creation_distance = 0.65,
+      range = 30,
+      sound = {
+        { filename = "__base__/sound/fight/heavy-gunshot-1.ogg", volume = 0.8 },
+      },
+    },
+    stack_size = 1,
+  },
+  {
+    type = "gun",
+    name = "f22-rocket-launcher",
+    icon = "__base__/graphics/icons/rocket-launcher.png",
+    icon_size = 64,
+    hidden = true,
+    subgroup = "gun",
+    order = "z[f22]-b[rocket-launcher]",
+    attack_parameters = {
+      type = "projectile",
+      ammo_category = "rocket",
+      cooldown = 30,
+      movement_slow_down_factor = 0.9,
+      projectile_creation_distance = 0.6,
+      range = 35,
+      sound = { { filename = "__base__/sound/fight/rocket-launcher.ogg", volume = 0.7 } },
+    },
+    stack_size = 1,
+  },
+})

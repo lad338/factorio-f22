@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-10-16
+  Major Features:
+    - Add F-22 Raptor
+    - Optional dependency for Aircraft Realism
