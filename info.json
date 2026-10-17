@@ -1,10 +1,10 @@
 {
-  "name": "f22",
+  "name": "f22Raptor",
   "version": "0.1.0",
   "title": "F-22 Raptor",
   "author": "lad338",
   "homepage": "https://github.com/lad338/factorio-f22",
-  "description": "Adds the F-22 Raptor.",
+  "description": "Adding F-22. Optional dependency to work with Aircraft Realism.",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.0.0",
