@@ -4,7 +4,7 @@ data:extend({
     name = "f22",
     -- Dedicated 256x256 render -- tech-tree icons display much larger
     -- than the 64x64 inventory icon (matches vanilla's own convention).
-    icon = "__f22__/graphics/icons/f22-icon-tech.png",
+    icon = "__f22Raptor__/graphics/icons/f22-icon-tech.png",
     icon_size = 256,
     effects = {
       {type = "unlock-recipe", recipe = "f22"},

@@ -1,5 +1,5 @@
-local ICONPATH = "__f22__/graphics/icons/"
-local ENTITYPATH = "__f22__/graphics/entity/f22/"
+local ICONPATH = "__f22Raptor__/graphics/icons/"
+local ENTITYPATH = "__f22Raptor__/graphics/entity/f22/"
 local FRAME_SIZE = 512  -- must match the rendered frame size in graphics/entity/f22/
 
 local function f22_animation()
@@ -145,7 +145,7 @@ if mods["AircraftRealism"] then
     data:extend({{
       type = "sprite",
       name = "f22-shadow-" .. tostring(i),
-      filename = "__f22__/graphics/entity/f22/f22-spritesheet-shadow.png",
+      filename = "__f22Raptor__/graphics/entity/f22/f22-spritesheet-shadow.png",
       width = FRAME_SIZE,
       height = FRAME_SIZE,
       x = xPos * FRAME_SIZE,
